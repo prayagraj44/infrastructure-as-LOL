@@ -3,7 +3,7 @@
 
 When working with Terraform, it's common to define variables in multiple places. However, Terraform uses a specific order of precedence to determine which value takes priority when a variable is defined in more than one place.
 
-Below is a quick reference to help you understand how Terraform chooses which variable value to use, from lowest to highest priority.
+Below is a quick reference to help  understand how Terraform chooses which variable value to use, from lowest to highest priority.
 
 ## Variable Precedence Order
 
@@ -19,7 +19,7 @@ Below is a quick reference to help you understand how Terraform chooses which va
 Suppoese we define the same variable `filename` in multiple places:
 
 1. **Environment Variable**  
-   ```bash
+```bash
    export TF_VAR_filename="/root/cats.txt"
 ````
 
