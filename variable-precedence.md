@@ -19,7 +19,7 @@ Below is a quick reference to help  understand how Terraform chooses which varia
 Suppoese we define the same variable `filename` in multiple places:
 
 1. **Environment Variable**  
-   ```bash
+```bash
    export TF_VAR_filename="/root/cats.txt"
 ````
 
