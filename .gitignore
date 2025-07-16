@@ -1,5 +1,4 @@
 .terraform.lock.hcl
-terraform.tfstate
 terraform.tfstate.backup
 .terraform/providers/registry.terraform.io/hashicorp/local/2.5.3/darwin_arm64/LICENSE.txt
 .terraform/providers/registry.terraform.io/hashicorp/local/2.5.3/darwin_arm64/terraform-provider-local_v2.5.3_x5

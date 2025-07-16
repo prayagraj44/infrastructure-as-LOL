@@ -4,6 +4,10 @@ variable "filename"{
     description = "the for the local file to be created"
 }
 
+variable "filename-for-pet-with-ref"{
+    default = "./test-files/ref-pet.txt"
+}
+
 variable "content"{
     default = "My fav pet is Kalliii and buzo"
     #type and description are optional
